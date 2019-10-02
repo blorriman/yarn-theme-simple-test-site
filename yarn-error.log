@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.0/libexec/bin/yarn.js workspace site add gatsby react react-dom gatsby-theme-test@*
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/blorriman/Documents/gatsby/tutorials/yarn-theme-test-site/site/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+  	"private": true,
+  	"workspaces": [
+  		"gatsby-theme-test",
+  		"site"
+  	]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
